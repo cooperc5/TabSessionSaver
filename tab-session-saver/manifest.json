@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Session Saver",
+  "version": "1.0",
+  "description": "Save and restore browsing sessions (open tabs) with local encryption.",
+  "permissions": [
+    "tabs",
+    "downloads",
+    "storage"
+  ],
+  "incognito": "spanning",
+  "browser_action": {
+    "default_title": "Tab Session Saver",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
